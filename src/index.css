@@ -6,9 +6,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: grey;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+h1{
+  color: aqua;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: block;
+}
+.container{
+  /* display: flex;
+ justify-content: space-around;
+  align-content: center; */
+  height: 1000px;
+  width: 1000px;
+  float: right
+}
+.header{
+  display: block;
+  width: 100%
+}
+#root{
+  height: 100%;
+  width: 100%;
+  float: inline-start
 }
